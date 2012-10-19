@@ -8,9 +8,9 @@ function(p,parent,compound,compoundDist,params,...) {
     }
 
     l <- p[p<0|p>1]
-    if (length(l)>0) stop("Parameter p is probability") 
+    if (length(l)>0) stop("Parameter p is probability")
 
-    xval <- real(length(p))
+    xval <- double(length(p))
     Finv <- get(paste("q", parent, sep = ""), mode = "function")
     phi <- get(paste("pgf", compound, sep = ""), mode = "function")
     phiInv <- get(paste("pgfI", compound, sep = ""), mode = "function")

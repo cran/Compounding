@@ -1,11 +1,11 @@
-1ac7b62f1fa7488e5ca375f4a8468fe8 *DESCRIPTION
+12c5abac24f4d3bd9ee9e461c329ec7a *DESCRIPTION
 04fdeb761a52405fd5d334c54ba1683b *NAMESPACE
-7a6ad9f3ea019e4c9c080913131ac910 *R/dCompound.R
+ebdb543c2e53a0e000c9ae43bdd28890 *R/dCompound.R
 80d1644dfbaf77c989743679f2a3cae6 *R/hCompound.R
 5d7c9118029ef7ccfd4883b8026b9e2d *R/kurtCompound.R
 237b10de7fabd46771e004018ebf80e5 *R/meanCompound.R
 4dd3cbc00c9f60ccd3205a58f3ca62e3 *R/momentCompound.R
-d19a67f696a68fb1b7de5cf3063a5b39 *R/pCompound.R
+87500f42b78d64ecb6b6d1f78a4adedb *R/pCompound.R
 c15c1fb49de7d1f7348804c5ae1d2b21 *R/pgfDbinomial.R
 715925ad2471a87e49115f67c93b6a5c *R/pgfDbinomialbinomial.R
 893fad0d6333f31eff7bd13882fd49d8 *R/pgfDbinomialpoisson.R
@@ -78,7 +78,7 @@ b7bf6f6163fc6d3dacead92a1bc07b16 *R/pgfpoissonlindley.R
 78e11104f6b733af88d4241c8366832c *R/pgfthomas.R
 21e4a37c26ebf84ddd2626677324d3ad *R/pgfwaring.R
 a58c4f1a1d41d4a6a9637ad92adf26f4 *R/pgfyule.R
-295efe6acc00916e9d0b13755e18c816 *R/qCompound.R
+ff554ceb8672a196b230ba5a95999e63 *R/qCompound.R
 fef14aac3eca916d80f7e0e3fa5dcb35 *R/rCompound.R
 a199494e5d00ade203945a9d09241ff0 *R/skewCompound.R
 248a11352005b240a502d681da1e983c *R/varCompound.R

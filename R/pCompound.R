@@ -6,7 +6,7 @@ function(q,parent,compound,compoundDist,params,...) {
     if (!is.element(compound,compoundDist)) {
         return(paste("The discrete distribution",compound,"doesn't exist"))
     }
-    xval <- real(length(q))
+    xval <- double(length(q))
     F <- get(paste("p",parent,sep=""), mode = "function")
     phi <- get(paste("pgf",compound,sep=""), mode = "function")
     xval <- (1-phi(1-F(q,...),params))/(1-phi(0,params))
