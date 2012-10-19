@@ -14,7 +14,7 @@ pgfDhyperpoisson(s, params)
 Value of the parameter of the pgf. It should be from interval  [-1,1]. In the opposite pgf diverges.
 }
   \item{params}{
-List of the parameters of the hyperpoisson distribution, such that   params<-c(theta,lambda), where both parameters are  positive.
+List of the parameters of the hyper Poisson distribution, such that   params<-c(theta,lambda), where both parameters are  positive.
 }
 }
 
@@ -51,8 +51,7 @@ if (theta<=0)
     stop ("Parameter theta must be positive")
 if (lambda<=0)
     stop ("Parameter lambda must be positive")
-
-     theta*genhypergeo(2,lambda+1,theta*s)/(lambda*genhypergeo(1,lambda,theta))
+  theta*genhypergeo(2,lambda+1,theta*s)/(lambda*genhypergeo(1,lambda,theta))
 }
 }
 

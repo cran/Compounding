@@ -4,7 +4,7 @@
 \title{
 Compound distribution}
 \description{
-This list is necessary to use functions pCompound, dCompound, qCompound, rCompound, hCompound, momentCompound, meanCompound, varCompound, skewCompound, kurtCompound . This list defines the range of discrete distributions to which the package was defined.
+This list is necessary to use functions pCompound, dCompound, qCompound, rCompound, hCompound, momentCompound, meanCompound, varCompound, skewCompound, kurtCompound. This list defines the range of discrete distributions to which the package was defined.
   
 }
 \usage{data(compoundDist)}

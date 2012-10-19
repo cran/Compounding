@@ -66,8 +66,7 @@ if ((p>=1)|(p<=0))
      stop ("Parameter p belongs to the interval (0,1)")
 if (m<n)
      stop ("Parameter m is greater or equal then n ")
-
-    n*p*Re(hypergeo(1-n,1-m*p,1-m,1-s))
+   n*p*Re(hypergeo(1-n,1-m*p,1-m,1-s))
 }
 }
 

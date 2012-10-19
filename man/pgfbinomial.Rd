@@ -11,7 +11,7 @@ pgfbinomial(s, params)
 }
 \arguments{
   \item{s}{
-Value of the parameter of the pgf. It should be from interval   [-1,1]. In the opposite pgf diverges.
+Value of the parameter of the pgf. It should be from interval   [-1,1]. Otherwise pgf diverges.
 }
   \item{params}{
 List of the parameters of the binomial distribution, such that   params<-c(n,theta), where n is the size, while 

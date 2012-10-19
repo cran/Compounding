@@ -7,4 +7,3 @@ function(s,params) {
     }
     xval
 }
-

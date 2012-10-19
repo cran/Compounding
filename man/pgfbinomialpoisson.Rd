@@ -1,7 +1,7 @@
 \name{pgfbinomialpoisson}
 \alias{pgfbinomialpoisson}
 \title{
-Function pgfbinomialpoisson.
+Function pgfbinomialpoisson
 }
 \description{
 This function calculates value of the pgf of the binomial-Poisson distribution.
@@ -55,7 +55,6 @@ if (n<0)
      stop("Parameter n must be positive")
  if(!(abs(n-round(n))<.Machine$double.eps^0.5))
 stop("Parameter n must be positive integer")
-
    (1-p+p*exp(theta*(s-1)))^n
 }
 }

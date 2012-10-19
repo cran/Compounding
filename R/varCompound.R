@@ -10,4 +10,3 @@ function(parent,compound,compoundDist,params,...) {
     m2 <- momentCompound(2,parent,compound,compoundDist,params,...)
     return(m2-m1^2)
 }
-

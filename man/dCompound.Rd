@@ -83,16 +83,17 @@ Parameters of continuous distribution could be provided as additional parameters
 }
 \details{
 Parameters of the parent distribution must be provided in the same way as it is in built in R functions. See
-
 http://127.0.0.1:23174/library/stats/html/Distributions.html
 }
 
 \references{
-Nadarajah S, Popovic B.V, Ristic M.M (2011) Compounding: An R Package for Computing Continuous Distributions Obtained by Compounding a Continuous and a Discrete Distribution(submitted)
+S. Nadarajah, B.V. Popovic, M.M. Ristic (2012) Compounding: an R package for computing continuous
+distributions obtained by compounding a continuous
+and a discrete distribution, Computational Statistics, DOI 10.1007/s00180-012-0336-y, http://www.springerlink.com/content/6r464013w6mp3545/ 
 }
 \author{
 
-S. Nadarajah, B. V. Popovic, M. M. Ristic
+S. Nadarajah, B.V. Popovic, M.M. Ristic
 }
 \examples{
 compoundDist <- c("geometric","poisson","negativebinomial","binomial",

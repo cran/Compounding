@@ -8,4 +8,3 @@ function(parent,compound,compoundDist,params,...) {
     }
     return(momentCompound(1,parent,compound,compoundDist,params,...))
 }
-

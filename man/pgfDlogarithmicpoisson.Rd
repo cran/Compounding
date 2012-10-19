@@ -49,9 +49,7 @@ if ((theta>=1)|(theta<=0))
      stop ("Parameter theta belongs to the interval (0,1)")
 if (lambda<=0)
      stop ("Parameter lambda must be positive")
-
-    -lambda*(1-theta)/log(theta)*exp(lambda*(s-1))/(1-(1-theta)*exp(lambda*(s-1)))
+   -lambda*(1-theta)/log(theta)*exp(lambda*(s-1))/(1-(1-theta)*exp(lambda*(s-1)))
 }
-
 }
 

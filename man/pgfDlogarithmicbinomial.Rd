@@ -14,7 +14,7 @@ pgfDlogarithmicbinomial(s, params)
 Value of the parameter of the pgf. It should be from interval   [-1,1]. In the opposite pgf diverges.
 }
   \item{params}{
-List of the parameters of the logarithmicbinomial  distribution, such that  params<-c(p1,p2,m,n), where 
+List of the parameters of the logarithmic-binomial  distribution, such that  params<-c(p1,p2,m,n), where 
 p1, p2 are the probabilities,
 m, n are the positive integers.
 }

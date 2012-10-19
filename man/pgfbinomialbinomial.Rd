@@ -14,10 +14,10 @@ pgfbinomialbinomial(s, params)
 Value of the parameter of the pgf. It should be from interval  [-1,1]. In the opposite pgf diverges.
 }
   \item{params}{
-List of the parameters of the Poisson-binomial distribution,  such that   params<-c(p1,p2,m,n), where
+List of the parameters of the binomial-binomial distribution,  such that   params<-c(p1,p2,m,n), where
 theta is the positive number,
 p1, p2 are the probabilities, and 
-m,n are the positive integers.
+m, n are the positive integers.
 }
 }
 
@@ -58,7 +58,6 @@ if (n<0)
      stop("Parameter n must be positive")
  if(!(abs(n-round(n))<.Machine$double.eps^0.5))
 stop("Parameter n must be positive integer")
-
     (1-p1+p1*(1-p2+p2*s)^n)^m
 }
 }

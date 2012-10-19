@@ -11,4 +11,3 @@ function(parent,compound,compoundDist,params,...) {
    sig2 <- varCompound(parent,compound,compoundDist,params,...)
    return((m3-3*m1*sig2-m1^3)/sig2^(3/2))
 }
-

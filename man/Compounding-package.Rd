@@ -94,7 +94,7 @@ Compound distributions can be characterized as follows:
 
 Suppose a device has an unknown number, N,  of initial defects of same kind (for example, a number of semiconductors from a defective lot).
 Suppose X_i's represent their lifetimes and that  each defect can be detected only after causing failure.
-Then the time to the first failure of the device is X = min (X_1, X_2, ldots, X_N)$.
+Then the time to the first failure of the device is X = min(X_1, X_2, ldots, X_N).
 
 
 Suppose a parallel system has N components.
@@ -106,8 +106,8 @@ The system's lifetime is X = min (X_1, X_2, ldots, X_N).}
 \tabular{ll}{
 Package: \tab Compounding\cr
 Type: \tab Package\cr
-Version: \tab 1.0\cr
-Date: \tab 2011-11-15\cr
+Version: \tab 1.0.1\cr
+Date: \tab 2012-10-19\cr
 
 License: \tab What license is it under?\cr
 LazyLoad: \tab yes\cr
@@ -122,13 +122,13 @@ We consider 24 discrete distributions which can be compounded with any continuou
 \author{ S.Nadarajah, B. V. Popovic, M. M. Ristic,
 
 
- Maintainer: B.V. Popovic, S. Nadarajah, M. M. Ristic 
- Email: bozidarpopovic@gmail.com,  saralees.nadarajah@manchester.ac.uk, miristic@ptt.rs 
+ Maintainer: B.V. Popovic 
+ Email: bozidarpopovic@gmail.com 
 }
 \references{
-R Programs for Computing Continuous Distributions
-Obtained by Compounding a Continuous and a
-Discrete Distribution, S. Nadarajah, B.V. Popovic, M.M. Ristic
+S. Nadarajah, B.V. Popovic, M.M. Ristic (2012) Compounding: an R package for computing continuous
+distributions obtained by compounding a continuous
+and a discrete distribution, Computational Statistics, DOI 10.1007/s00180-012-0336-y, http://www.springerlink.com/content/6r464013w6mp3545/ 
 }
 
 \keyword{ package }

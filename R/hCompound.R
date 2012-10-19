@@ -1,8 +1,6 @@
 hCompound <-
-function(x, parent, compound,compoundDist,params, ...) 
-  {
-    if (!exists(paste("p",parent,sep=""))) 
-  {
+function(x, parent, compound,compoundDist,params, ...) {
+    if (!exists(paste("p",parent,sep=""))) {
         return(paste("The parent distribution",parent,"doesn't exist"))
     }
     if (!is.element(compound,compoundDist)) {
@@ -10,4 +8,3 @@ function(x, parent, compound,compoundDist,params, ...)
     }
     dCompound(x,parent,compound,compoundDist,params,...)/(1-pCompound(x,parent,compound,compoundDist,params,...))
 }
-
